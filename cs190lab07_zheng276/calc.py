@@ -54,7 +54,7 @@ cd47d8efbc11b6bc2fbc946852499795b0309082
 # -------------------------------------------------------- #
 
 a = None
-b = Nonesh your implementation, you will get a merge conflict. Don't panic. Skip to the next section (merge conflict) 
+b = None
 op = None
 
 while (True):
