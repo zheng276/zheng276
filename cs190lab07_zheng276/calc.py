@@ -33,6 +33,13 @@ def mult(a, b):
 def div(a, b):
     return a / b
 
+#Modulo function
+# a -- dividend
+# b -- divisor
+def modulo(a, b):
+	return a % b
+	
+
 
 # -------------------------------------------------------- #
 
@@ -42,7 +49,7 @@ def div(a, b):
 # -------------------------------------------------------- #
 
 a = None
-b = None
+b = Nonesh your implementation, you will get a merge conflict. Don't panic. Skip to the next section (merge conflict) 
 op = None
 
 while (True):
@@ -67,6 +74,8 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
+		elif (op == "%"):
+			print "Modulo: ", modulo(a, b)
         else:
             print "Invalid operation..."
 
