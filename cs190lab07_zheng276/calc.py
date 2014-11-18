@@ -81,7 +81,7 @@ while (True):
             print "Quotient: ", div(a, b)
         elif (op == "%"):
 			print "Modulo: ", modulo(a, b)
-		elif (op == "**"):
+        elif (op == "**"):
 			print "Expotential: ", exp(a, b)
         else:
             print "Invalid operation..."
